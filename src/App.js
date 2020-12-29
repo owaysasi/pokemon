@@ -1,24 +1,32 @@
 import logo from './logo.svg';
+import Header from './Components/Header/Header';
 import './App.css';
+import { BrowserRouter as Router,Switch, Route } from "react-router-dom";
+import Footer from './Components/Footer/Footer';
+import Error from './Pages/Error/Error';
+import Search from './Components/Search/Search';
+import SliderPoke from './Components/SliderPoke/SliderPoke';
+import ResultPoke from './Components/ResultPoke/ResultPoke';
+import Home from './Pages/Home/Home';
+import SliderCard from './Components/SliderCard/SliderCard';
+import Legendaries from './Pages/Legendaries/Legendaries';
+import Pokedex from './Pages/Pokedex/Pokedex';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route exact path="/legendaries" component={Legendaries} />
+          <Route exact path="/pokedex" component={Pokedex} />
+          <Route exact path="/" component={Home} />
+          <Route>
+            <Error/>
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+    
   );
 }
 

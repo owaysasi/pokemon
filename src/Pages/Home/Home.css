@@ -1,0 +1,67 @@
+.home-container{
+    background-color: #F5DB13;
+    width: 1366px;
+}
+
+.mini-ho-c{
+    width: 1209px;
+    height: 727px;
+    margin-left: 148px;
+    position: relative;
+    
+}
+
+.home-talk{
+    text-align: left;
+    display: block;
+    width: 488px;
+}
+
+.home-view{
+    width: 721px;
+    position: relative;
+}
+
+.home-title{
+    font-size: 48px;
+    font-family: Karla;
+    width: 480px;
+    text-align: left;
+    font-family: Karla;
+    font-size: 72px;
+    font-style: normal;
+    line-height: 84px;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+}
+
+.home-desc{
+    font-family: Karla;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 488px;
+    margin-bottom: 30px;
+}
+
+.pica-pic{
+    width: 721px;
+    height: 650px;
+    position: absolute;
+    bottom: -160px;
+    left: 497px;
+}
+
+.poke-btn{
+    background-color: rgb(39, 160, 39);
+    border: none;
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: white;
+    font-style: normal;
+}

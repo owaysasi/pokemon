@@ -1,0 +1,35 @@
+.header-container{
+    background-color: #F5DB13;
+    display: flex;
+    justify-content: center;
+    width: 1366px;
+    height: 93px;
+    box-shadow: 0px 5px 10px #00000033;
+    margin-bottom: 100px;
+}
+
+.mini-h-c{
+    width: 1076px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13px;
+}
+
+.header-logo{
+    height: 100%;
+}
+
+.header-navbar{
+    width: 736px;
+}
+
+.navbar-item{
+    margin-left: 51px;
+    font-family: Karla;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+
+}

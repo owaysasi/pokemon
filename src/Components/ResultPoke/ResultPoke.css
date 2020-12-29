@@ -1,0 +1,70 @@
+.resultpoke-container{
+    height: 136px;
+    width: 351px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 5px 10px #00000033;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.desc-res{
+    width: 120px;
+    height: 100%;
+    background-color: rgb(238, 238, 238);
+}
+
+.title-desc-res{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.marks-cont-res{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.marks-desc-res{
+    border-radius: 45px;
+    width: 30px;
+    height: 27px;
+    padding-top: 3px;
+    border: 2px solid black;
+}
+
+.words-marks-res{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: -15px;
+}
+
+.cont-label-marks-res{
+    
+}
+
+.label-marks-res{
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background-color: rgb(4, 182, 4);
+    box-shadow: 0px 5px 10px #00000033;
+}
+
+.cont-pic-res{
+    border-radius: 0px 10px 10px 0px;
+    height: 100%;
+    width: 230px;
+    background-color: #f5796e;
+    margin-left: -1px;
+    
+}
+
+.pic-res{
+    margin-top: 3px;
+    width: 57%;
+    height: auto;
+}

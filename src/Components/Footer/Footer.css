@@ -1,0 +1,17 @@
+.footer-container{
+    display: flex;
+    justify-content: center;
+    width: 1366px;
+    height: 101px;
+    margin-top: auto;
+    position: relative;
+    clear: both;
+    margin-top: -101px;
+}
+
+.mini-f-c{
+    width: 1076px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 47px;
+}
