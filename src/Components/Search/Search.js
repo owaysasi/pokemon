@@ -1,7 +1,6 @@
 import React from 'react';
 import './Search.css';
 import {BiChevronDown as Down} from 'react-icons/bi';
-import {FiSquare as Square} from 'react-icons/fi';
 import {useEffect, useState} from 'react';
 import ResultPoke from '../ResultPoke/ResultPoke';
 import axios from 'axios';

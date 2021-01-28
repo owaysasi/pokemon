@@ -14,7 +14,7 @@ import Pokedex from './Pages/Pokedex/Pokedex';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/pokemon">
       <div className="App">
         <Switch>
           <Route exact path="/legendaries" component={Legendaries} />
